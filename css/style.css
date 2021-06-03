@@ -1,10 +1,3 @@
-/* desafios */
-/* * mudar hover do mouse */
-/* * hospedar o site no github pages */
-
-/* Aula */
-/* * assistir a partir da aula 1 do módulo 2 */
-
 header {
   display: flex;
   justify-content: space-between;
@@ -46,4 +39,10 @@ a::before {
   box-shadow: 5px 2px 0 var(--color-black-first);
   padding: 18px 20px;
   margin-right: 0;
+}
+
+#button:hover {
+  background-color: var(--color-success);
+  transition: all 1s ease-in-out;
+  transform: scale(1.1);
 }
