@@ -1,6 +1,7 @@
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: var(--color-second);
   border-bottom: 10px solid var(--color-black-first);
   padding: 10px 20px;
@@ -39,10 +40,10 @@ a::before {
   box-shadow: 5px 2px 0 var(--color-black-first);
   padding: 18px 20px;
   margin-right: 0;
+  transition: transform 150ms ease-in-out;
 }
 
 #button:hover {
   background-color: var(--color-success);
-  transition: all 1s ease-in-out;
   transform: scale(1.1);
 }
