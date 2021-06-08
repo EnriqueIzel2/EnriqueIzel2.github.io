@@ -1,9 +1,0 @@
-.box h1 {
-  color: var(--color-second);
-  text-shadow: 4px 4px 0 var(--color-black-first);
-  margin-bottom: 28px;
-}
-
-.box h2 {
-  color: var(--color-third);
-}
