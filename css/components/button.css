@@ -5,6 +5,8 @@
   padding: 18px 20px;
   margin-right: 0;
   transition: transform 150ms ease-in-out;
+  font-size: 20px;
+  color: var(--color-third);
 }
 
 .button:hover {
