@@ -1,11 +1,35 @@
 :root {
-  --color-first: #03254e;
-  --color-second: #7c5e99;
+  --color-first: #192a56;
+  --color-second: #8c7ae6;
   --color-third: #ffffff;
   --color-black-first: #000000;
-  --color-black-second: #3a4042;
+  --color-black-second: #353b48;
   --color-black-third: #828282;
   --color-error: #ba1f33;
   --color-warning: #ceb02a;
   --color-success: #51bbfe;
+}
+
+/* Fonts */
+body {
+  font-family: "Fira Code", sans-serif;
+}
+
+.headline {
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 40px;
+  color: var(--color-second);
+  text-shadow: 4px 4px var(--color-black-first);
+}
+
+.title {
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 30px;
+  color: var(--color-third);
+  text-shadow: 4px 4px var(--color-black-first);
+}
+
+.subtitle {
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 25px;
 }
