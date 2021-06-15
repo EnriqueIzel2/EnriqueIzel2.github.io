@@ -1,0 +1,24 @@
+.headline {
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 40px;
+  color: var(--color-second);
+  text-shadow: 4px 4px 0 var(--color-black-first);
+}
+
+.headline.--second {
+  color: #fff;
+  text-shadow: none;
+  text-align: center;
+}
+
+.title {
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 30px;
+  color: var(--color-third);
+  text-shadow: 4px 4px 0 var(--color-black-first);
+}
+
+.subtitle {
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 25px;
+}
