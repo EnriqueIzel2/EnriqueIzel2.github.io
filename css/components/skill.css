@@ -1,0 +1,7 @@
+.skill {
+  display: flex;
+}
+
+.skill .icon {
+  margin-right: 25px;
+}
