@@ -1,13 +1,19 @@
 .skill {
   display: flex;
+  align-items: center;
 }
 
 .skill .icon {
   margin-right: 25px;
+  width: 90px;
 }
 
 .skill .right {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.skill .subtitle {
+  margin-bottom: 10px;
 }
