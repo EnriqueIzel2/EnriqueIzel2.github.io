@@ -1,0 +1,13 @@
+.card-project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-black-first);
+  width: 280px;
+  height: 280px;
+  box-shadow: 10px 10px 0 var(--color-third);
+}
+
+.card-project.--blue {
+  background-color: var(--color-second);
+}
