@@ -8,6 +8,10 @@
   box-shadow: 10px 10px 0 var(--color-third);
 }
 
+.card-project.--first {
+  background-color: var(--color-first);
+}
+
 .card-project.--blue {
   background-color: var(--color-second);
 }
