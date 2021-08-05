@@ -29,6 +29,8 @@
     <link rel="stylesheet" href="./css/components/main-description.css" />
     <link rel="stylesheet" href="./css/components/button-arrow.css" />
     <link rel="stylesheet" href="./css/components/node-card.css" />
+    <link rel="stylesheet" href="./css/components/main-form.css" />
+    <link rel="stylesheet" href="./css/components/main-footer.css">
 
     <title>Enrique Izel</title>
   </head>
@@ -255,5 +257,48 @@
       </div>
       <script src="./js/components/main-carousel.js"></script>
     </section>
+
+    <section class="main-section --bgThird --bdBlack">
+      <h2 class="headline --second">Contatos</h2>
+
+      <form action="" class="main-form">
+        <div class="field-text">
+          <label class="body1" for="nome">Nome</label>
+          <input type="text" class="input-text" name="nome" id="nome" required />
+        </div>
+
+        <div class="field-text">
+          <label class="body1" for="email">Email</label>
+          <input type="email" class="input-text" name="email" id="email" required />
+        </div>
+
+        <div class="field-text">
+          <label class="body1" for="mensagem">Mensagem</label>
+          <textarea
+            type="text"
+            class="area-text"
+            name="mensagem"
+            id="mensagem"
+            required
+          >
+          </textarea>
+        </div>
+
+        <button type="submit" class=" main-button body1">Enviar</button>
+      </form>
+    </section>
+
+    <footer class="main-footer">
+      <div class="social-medias">
+        <a href="http://twitter.com" target="_blank">
+          <img src="./assets/twitter 1.png" alt="Logo do twitter em pixel art" />
+        </a>
+        <a href="http://youtube.com" target="_blank">
+          <img src="./assets/youtube 1.png" alt="Logo do youteube em pixel art" />
+        </a>
+        <a href="http://discord.com" target="_blank">
+          <img src="./assets/discord 1.png" alt="Logo do discord em pixel art" />
+        </a>
+    </footer>
   </body>
 </html>
