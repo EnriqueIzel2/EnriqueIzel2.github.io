@@ -23,3 +23,10 @@
   font-size: 25px;
   color: var(--color-third);
 }
+
+.body1 {
+  font-family: "Fira Code", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: var(--color-third);
+}
