@@ -17,6 +17,10 @@
   background-color: var(--color-second);
 }
 
+.main-section.--bgThird {
+  background-color: var(--color-black-third);
+}
+
 .main-section.--bdFirst {
   border-color: var(--color-first);
 }
