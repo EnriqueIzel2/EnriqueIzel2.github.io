@@ -1,0 +1,24 @@
+.main-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 675px;
+  margin: 0 40px;
+}
+
+.main-form .field-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-form .input-text {
+  border: 5px solid #000;
+  height: 50px;
+  font-size: 30px;
+}
+
+.main-form .area-text {
+  border: 5px solid #000;
+  height: 300px;
+  font-size: 30px;
+}
