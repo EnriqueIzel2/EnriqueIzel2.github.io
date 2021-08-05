@@ -1,0 +1,12 @@
+.main-footer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-black-first);
+}
+
+.social-medias {
+  display: flex;
+  justify-content: space-between;
+  margin: 28px;
+  width: 215px;
+}
